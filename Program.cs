@@ -8,9 +8,10 @@
 string [] array = new string [] {"fghdh", "rty", "3456", "ab", "123"};
 string []arr= new string[array.Length];
 int count = 0;
+int size=3;
 for (int i = 0; i<array.Length; i++)
 {
-    if (array[i].Length <=3)
+    if (array[i].Length <=size)
     {
         arr[count]=array[i];  
         count++;   
