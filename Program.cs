@@ -5,7 +5,7 @@
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 // [“Russia”, “Denmark”, “Kazan”] → []
 
-string [] array = new string [] {"fghdh", "rty", "3456", "ab", "123"};
+string [] array = new string [] {"fghdh", "rtr", "34", "abrr", "123r"};
 string []arr= new string[array.Length];
 int count = 0;
 int size=3;
@@ -17,10 +17,12 @@ for (int i = 0; i<array.Length; i++)
         count++;   
     }
 }
+Console.Write("Новый массив из строк: [");
 for (int j=0; j< arr.Length; j++)
 {
     Console.Write(arr[j]+ " ");
 }
+Console.Write("]");
 
 
        
